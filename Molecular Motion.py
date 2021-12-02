@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from random_walk import RandomWalk
+import pygal
 
 #Make a random walk and plot the points
 while True:
@@ -31,4 +32,6 @@ while True:
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
         break
+
+
 
